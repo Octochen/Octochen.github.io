@@ -287,9 +287,9 @@ blockquote p {
 }
 #blog_name a {
   display: block;
-  margin: 0 1.6rem;
+  margin: 1 -2.3rem;
   padding: 0.8rem 0;
-  color: #7a8288;
+  color: #494e51;
   font-weight: 600;
   text-decoration: none;
   -webkit-transition: all 0.2s ease-in-out;
@@ -314,7 +314,7 @@ blockquote p {
     padding: 5px;
     border-width: 1px;
     border-style: solid;
-    border-color: #f2f3f3;
+    border-color: f2f3f3;
     border-image: initial;
     border-radius: 4px;
     background: #fff;
@@ -393,9 +393,9 @@ blockquote p {
   .menus_items li a {
     position: relative;
     display: block;
-    margin: 0 1.6rem;
+    margin: 0 2rem;
     padding: 0.8rem 0;
-    color: #7a8288;
+    color: #494e51; /*Pbulication About Blog*/
     text-decoration: none;
   }
   .menus_items li a::before {
@@ -413,7 +413,7 @@ blockquote p {
     transform: scaleX(0);
   }
   .menus_items li a:hover {
-    color: #5c6266;
+    color: #000;
   }
   .menus_items li a:hover::before {
     -webkit-transform: scaleX(1);
@@ -501,8 +501,6 @@ blockquote p {
     width: 82.5%;
     float: right;
     margin-right: 0;
-    -webkit-box-shadow: 0 4px 8px 6px rgba(7,17,27,0.06);
-    box-shadow: 0 4px 8px 6px rgba(7,17,27,0.06);
   }
   .page .page-title {
     padding: 0 3.6rem;
@@ -536,19 +534,20 @@ blockquote p {
 }
 .author-avatar img {
   width: 100%;
-  max-width: 110px;
-  border-radius: 50%;
+  max-width: 150px;
+  border-radius: 100%;
 }
 .author-discrip {
   display: table-cell;
   vertical-align: top;
+  text-align: center; /*put text in center*/
   padding-left: 15px;
   padding-right: 15px;
   line-height: 1;
 }
 .author-discrip h3 {
   margin: 0px;
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 .author-discrip .author-bio {
   font-size: 1.2rem;
@@ -710,11 +709,9 @@ blockquote p {
     min-width: 165px;
     float: left;
     margin-right: 1.69492%;
-    opacity: 0.75;
+    opacity: 1; /*no need for opacity*/
     -webkit-transition: opacity 0.2s ease-in-out;
     transition: opacity 0.2s ease-in-out;
-    -webkit-box-shadow: 0 4px 8px 6px rgba(7,17,27,0.06);
-    box-shadow: 0 4px 8px 6px rgba(7,17,27,0.06);
   }
   .side-card .card-wrap {
     padding: 10px 10px 10px 17px;
@@ -773,7 +770,7 @@ blockquote p {
   }
   .social-links {
     display: block;
-    margin-top: 0.8rem;
+    margin-top: 1.8rem;
     margin-bottom: 1.6rem;
     padding: 0;
   }
