@@ -229,7 +229,7 @@ figure.highlight {
 html {
   height: 100%;
   margin: 0;
-  font-size: 62.5%;
+  font-size: 72.5%;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
 }
@@ -253,11 +253,11 @@ img {
 }
 blockquote {
   position: relative;
-  color: #999;
   font-weight: 400;
-  background-color: #f7f7f7;
-  border-left: 5px solid #777;
-  padding: 1rem 1rem 1rem 1.5rem;
+  border-left: 4px solid #42b983;
+  padding: 10px 0px 10px 15px;
+  color: #012345;
+  background-color: rgba(66,185,131,0.1);
   margin: 1rem 3rem 1rem 2rem;
 }
 blockquote p {
@@ -273,7 +273,7 @@ blockquote p {
   z-index: 20;
 }
 .header_wrap {
-  max-width: 1200px;
+  max-width: 1375px; /*used to balance the position of the blog name and my Photo*/
   margin-left: auto;
   margin-right: auto;
   clear: both;
@@ -287,7 +287,7 @@ blockquote p {
 }
 #blog_name a {
   display: block;
-  margin: 1 -2.3rem;
+  margin: -1 -2.3rem;
   padding: 0.8rem 0;
   color: #494e51;
   font-weight: 600;
@@ -493,7 +493,7 @@ blockquote p {
 }
 @media screen and (min-width: 66.67em) {
   #page_main {
-    max-width: 1200px;
+    max-width: 1300px; /*page width*/
   }
 }
 @media (min-width: 34em) {
@@ -501,6 +501,8 @@ blockquote p {
     width: 82.5%;
     float: right;
     margin-right: 0;
+    -webkit-box-shadow: 0 4px 8px 6px rgba(7,17,27,0.06);
+    box-shadow: 0 4px 8px 6px rgba(7,17,27,0.06);
   }
   .page .page-title {
     padding: 0 3.6rem;
@@ -712,6 +714,8 @@ blockquote p {
     opacity: 1; /*no need for opacity*/
     -webkit-transition: opacity 0.2s ease-in-out;
     transition: opacity 0.2s ease-in-out;
+    -webkit-box-shadow: 0 4px 8px 6px rgba(7,17,27,0.06);
+    box-shadow: 0 4px 8px 6px rgba(7,17,27,0.06);
   }
   .side-card .card-wrap {
     padding: 10px 10px 10px 17px;
