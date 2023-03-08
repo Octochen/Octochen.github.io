@@ -229,7 +229,7 @@ figure.highlight {
 html {
   height: 100%;
   margin: 0;
-  font-size: 72.5%;
+  font-size: 68%;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
 }
@@ -273,7 +273,7 @@ blockquote p {
   z-index: 20;
 }
 .header_wrap {
-  max-width: 1375px; /*used to balance the position of the blog name and my Photo*/
+  max-width: 1400px; /*used to balance the position of the blog name and my Photo*/
   margin-left: auto;
   margin-right: auto;
   clear: both;
@@ -493,7 +493,7 @@ blockquote p {
 }
 @media screen and (min-width: 66.67em) {
   #page_main {
-    max-width: 1300px; /*page width*/
+    max-width: 1350px; /*page width*/
   }
 }
 @media (min-width: 34em) {
