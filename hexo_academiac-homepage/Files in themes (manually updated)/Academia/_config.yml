@@ -20,9 +20,10 @@ menu:
   Home: /
   #Biography: /
   Publications: /Publications
-  Projects: /Projects
+  #Projects: /Projects
   #Group: /Group
-  Blogs: /Blogs
+  #Blogs: /Blogs
+  Services: /Services
   
 
 # flink picture will load if avator link calls on error
@@ -56,7 +57,7 @@ e_social_links:
   Github: https://github.com/Octochen || fab fa-github
 # ORCID: https://orcid.org/my-orcid?orcid=0000-0003-3835-9900 || fab fa-orcid
   Envelope: mailto:YuchenZhang95@163.com || fas fa-envelope
-  Hangzhou, China: / || fas fa-map-marker-alt
+  Hangzhou, China: http://www.gditu.net/zhejiang-hangzhou.html || fas fa-map-marker-alt
 # CV download link
 cv_dl:
   enable: true
