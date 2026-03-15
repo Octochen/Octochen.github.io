@@ -10,4 +10,5 @@ date: 2023-03-07 22:31:43
 - Systems \& Control Letters
 - IEEE Control Systems Letters
 - Journal of the Franklin Institute
+- IEEE Transactions on Network Science and Engineering
 
