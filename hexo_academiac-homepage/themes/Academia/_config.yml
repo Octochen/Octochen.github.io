@@ -1,6 +1,6 @@
 #favicon: /img/favicon.png
 # Change to your profile picture
-avatar: /img/Octochen.png
+avatar: /img/Octochen.jpg
 # if author sets in hexo_config, this string doesn't work
 author: 'Yuchen Zhang'
 author_bio: 'Ph.D. in control theory.'
@@ -19,6 +19,7 @@ mathjax:
 menu:
   Home: /
   #Biography: /
+  Research: /Research
   Publications: /Publications
   #Projects: /Projects
   #Group: /Group
@@ -52,7 +53,7 @@ social_links:
 e_social:
   enable: true
 e_social_links:
-  Google Scholar: / || fas fa-graduation-cap
+  Google Scholar: https://scholar.google.co.jp/citations?user=dZHLssUAAAAJ&hl=zh-CN || fas fa-graduation-cap
   ResearchGate: https://www.researchgate.net/profile/Yuchen-Zhang-98 || fas fa-tag
   Github: https://github.com/Octochen || fab fa-github
 # ORCID: https://orcid.org/my-orcid?orcid=0000-0003-3835-9900 || fab fa-orcid
